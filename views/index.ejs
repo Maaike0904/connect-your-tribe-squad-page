@@ -15,13 +15,13 @@
   <section>
     <!-- Hier komen de members -->
     <% squad.members.forEach(member => { %>
-    <article>
+    <article href="<">
       <% if (member.avatar) { %>
       <img src="<%= member.avatar %>" alt="De avatar van <%= member.name %>" />
       <% }else{ %>
       <img src="/puppy.png" alt="Placeholder avatar" />
       <% } %>
-      <h2><%= member.name %> <%= member.prefix %> <br><%= member.surname %></h2>
+      <h2><%= member.name %> <%= member.prefix %><%= member.surname %><br><%= member.nickname%></h2>
     </article>
     <% }) %>
   </section>
