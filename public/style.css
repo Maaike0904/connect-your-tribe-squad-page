@@ -85,8 +85,6 @@ h1{
   text-align: left;
   font-family: 'poppins';
   font-weight: 600;
-  margin-bottom: 10em;
-
 }
 
 h2{
@@ -112,32 +110,28 @@ main section {
 article {
   position: relative;
   width: 10rem;
-  height: 10rem;
+  height: 15rem;
   padding: 1rem;
   color: slate;
   text-align: center;
 
   /* From https://css.glass */
-  background: var(--orange);
-  border-radius: 0rem;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(5.8px);
-  -webkit-backdrop-filter: blur(5.8px);
-  /* border: 1px solid rgba(255, 255, 255, 0.27); */
 }
 
 article h2 {
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: normal;
   color: white;
-  padding-top: .5em;
-  padding-bottom: 1em;
+  text-align: center;
+  font-family: 'Bebas Neue', cursive;
 }
+
 article img {
-  height: 5rem;
-  width: 5rem;
+  height: 10rem;
+  width: 10rem;
   border-radius:0%;
 }
+
 article a {
   position: absolute;
   top: 0;
@@ -146,15 +140,11 @@ article a {
   height: 10rem;
   /* display: block; */
 }
-article a:hover {
-  background: #fff2;
-}
-article a span {
-  display: none;
-}
+
 
 .filters{
   align-content: center;
+  margin-bottom: 6em;
 }
 
 a{
@@ -204,13 +194,21 @@ button.kijklijst:hover{
   color: #000000;
 }
 
-/* button.order-by-name{
-  background-color:var(--pink);
+.order-by-name{
+  text-decoration: underline;
+  background-color: none;
+  color: var(--grey);
+  font-size: .6em;
 }
 
-button.order-by-name:hover{
-  background-color: var(--yellow);
-} */
+.komedieseries{
+  text-align: left;
+}
+
+.komedieseries-slider{
+  padding-left:3em;
+  padding-top: 3em;
+}
 
 @media screen and (max-width: 820px){
 a{
