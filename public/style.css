@@ -77,8 +77,20 @@ i{
   padding-left: 3em;
 }
 
+
+
 h1{
   font-size: 2em;
+  color: white;
+  text-align: left;
+  font-family: 'poppins';
+  font-weight: 600;
+  margin-bottom: 10em;
+
+}
+
+h2{
+  font-size: 1.5em;
   color: white;
   text-align: left;
   font-family: 'poppins';
@@ -149,14 +161,11 @@ a{
   text-decoration: none;
   color: white;
   padding:.1em;
-}
-
-a:hover{
-  color: #000000;
+  font-family: 'poppins';
 }
 
 button{
-  border-radius: 20px;
+  border-radius: 50px;
   border-style: none;
   padding:1em;
   color: var(--white);
@@ -167,7 +176,7 @@ button{
   transition: all 0.3s ease-in-out;
   cursor: pointer;
   font-family: 'poppins';
-  font-weight: 400;
+  font-weight: 600;
 }
 
 button:hover {
@@ -186,15 +195,13 @@ button.kijklijst{
   transition: all 0.3s ease-in-out;
   cursor: pointer;
   font-family: 'poppins';
-  font-weight: 400;
+  font-weight: 600;
 }
 
 button.kijklijst:hover{
   transform: scale(1.1);
   background-color: var(--white);
   color: #000000;
-  font-family: 'poppins';
-  font-weight: 400;
 }
 
 /* button.order-by-name{
