@@ -105,7 +105,7 @@ h3{
 main section {
   display: flex;
   flex-flow: row wrap;
-  justify-content: center;
+  /* justify-content: center; */
 }
 
 article {
@@ -130,16 +130,20 @@ article h2 {
 article img {
   height: 10rem;
   width: 10rem;
-  border-radius:0%;
+  background: black;
+
+	opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+article img:hover {
+  opacity: .3;
 }
 
 article a {
-  position: absolute;
-  top: 0;
-  left: 0;
   width: 10rem;
   height: 10rem;
-  /* display: block; */
 }
 
 
@@ -204,7 +208,15 @@ button.kijklijst:hover{
 
 .komedieseries{
   text-align: left;
-  margin-left: -5.5em;
+  /* margin-left: -5.5em; */
+  display: grid;
+  grid-auto-flow: column;
+/* Breedte van elke kolom: */
+  grid-auto-columns:16%;
+/* Zorgt ervoor dat je niet de hele pagina scrollt */
+  overflow-x:auto;
+/* Zorgt dat je alleen dit element kut scrollen */
+  overscroll-behavior-inline: contain;
 }
 
 .komedieseries-slider{
@@ -216,5 +228,37 @@ button.kijklijst:hover{
 a{
   display:none;
 }
+}
 
+@media screen and (max-width: 1200px){
+.komedieseries{
+  grid-auto-columns:18%;
+}
+
+@media screen and (max-width: 1000px){
+.komedieseries{
+  grid-auto-columns:22%;
+}
+
+@media screen and (max-width: 900px){
+.komedieseries{
+  grid-auto-columns:32%;
+}
+
+@media screen and (max-width: 600px){
+.komedieseries{
+  grid-auto-columns:35%;
+}
+}
+
+@media screen and (max-width: 500px){
+.komedieseries{
+  grid-auto-columns:78%;
+  height: 20em;
+}
+
+article img {
+  height: 15rem;
+  width: 15rem;
+}
 }
