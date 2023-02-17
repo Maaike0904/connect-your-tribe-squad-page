@@ -73,8 +73,8 @@ i{
 }
 
 .header-tekst{
-   margin-top: -12em;
-  padding-left: 3em;
+  margin-top: -12em;
+  padding-left: 6em;
 }
 
 
@@ -99,6 +99,7 @@ h3{
   font-family: 'poppins';
   font-weight: 200;
   color: white;
+  opacity: 70%;
 }
 
 main section {
@@ -203,11 +204,12 @@ button.kijklijst:hover{
 
 .komedieseries{
   text-align: left;
+  margin-left: -5.5em;
 }
 
 .komedieseries-slider{
-  padding-left:3em;
-  padding-top: 3em;
+  padding-left:6em;
+  padding-top: 1.5em;
 }
 
 @media screen and (max-width: 820px){
