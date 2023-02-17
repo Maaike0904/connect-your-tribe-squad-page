@@ -1,20 +1,14 @@
 <%- include('./partials/head.ejs') %>
 
 <main>
-  <h1>✤ <%= squad.name %> ✤</h1>
 
-<section class="filters">
-    <button><a href="/?squad=squad-a-2022">Squad A</a></button>
-    <button><a href="/?squad=squad-b-2022">Squad B</a></button>
-    <button><a href="/?squad=squat-c-2022">Squad C</a></button>
-</section>
-<section>
+<!-- <section>
     <button class="order-by-name"><a href="/?squad=<%= squad.slug %>&orderBy=name">Sorteer op naam</a></button>
-</section>
+</section> -->
 
   <section>
     <!-- Hier komen de members -->
-    <% squad.members.forEach(member => { %>
+    <!-- <% squad.members.forEach(member => { %>
     <article href="<">
       <% if (member.avatar) { %>
       <img src="<%= member.avatar %>" alt="De avatar van <%= member.name %>" />
@@ -23,7 +17,7 @@
       <% } %>
       <h2><%= member.name %> <%= member.prefix %><%= member.surname %><br><%= member.nickname%></h2>
     </article>
-    <% }) %>
+    <% }) %> -->
   </section>
 </main>
 
