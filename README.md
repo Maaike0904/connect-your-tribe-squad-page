@@ -1,7 +1,8 @@
 > _Fork_ deze leertaak en ga aan de slag. Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 
-# Titel
-<!-- Geef je project een titel en schrijf in één zin wat het is -->
+# Squadpage
+<img width="1387" alt="Scherm­afbeelding 2023-02-17 om 18 37 38" src="https://user-images.githubusercontent.com/112861144/219728937-a6e3b36a-d57c-41a2-b7f5-56793d38c94f.png">
+
 
 ## Inhoudsopgave
 
