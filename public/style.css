@@ -66,8 +66,8 @@ i{
 
 .headerfoto{
   position: relative;
-  z-index: -1;
-  margin: -7rem -1rem 0;
+  z-index: -1;/SB-5.JPG
+  /* margin: -7rem -1rem 0; */
   max-width: calc(2rem + 100%);
 }
 
@@ -270,10 +270,10 @@ a{
 display: none;
 }
 
-.headerfoto{
+/* .headerfoto{
   width: 100%;
   height: 70%;
-}
+} */
 }
 
 @media screen and (max-width: 500px){
@@ -287,8 +287,8 @@ article img {
   width: 15rem;
 }
 
-.headerfoto{
+/* .headerfoto{
   width: 100%;
   height: 70%;
-}
+} */
 }
