@@ -23,6 +23,10 @@ In semester 2, gaan wij heel veel bezig zijn met het gebruiken van API's. In dez
 
 ## 👓 Kenmerken
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
+<b>Tools</b>
+
+* Visual Studio Code (Code editor)
+* Google Chrome (Browser)
 
 * 🌸 HTML
 * 🌷 CSS 
