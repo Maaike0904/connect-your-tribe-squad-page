@@ -30,16 +30,21 @@ In semester 2, gaan wij heel veel bezig zijn met het gebruiken van API's. In dez
 * 🌷 CSS 
 * 🌺 Javascript
 * 🍄 Node js
+* 💥 JSON 
 
 ## 🎯 Installatie
 <!-- Bij Installatie staat stap-voor-stap beschreven hoe je de development omgeving moet inrichten om aan de repository te kunnen werken. -->
-Via [Nodejs.org](https://nodejs.org/en/download/) heb ik eerst Node js gedownload.
+* Node installatie - Via [Nodejs.org](https://nodejs.org/en/download/) heb ik eerst Node js gedownload.
+* NPM installatie
 
 ## ✂️ Gebruik
 
 ## 📥 Bronnen
-* ✒️ [Codepen](https://codepen.io/nxworld/pen/ZYNOBZ)
-* 📑 [Google Fonts](https://fonts.google.com/)
+* [Codepen](https://codepen.io/nxworld/pen/ZYNOBZ)
+* [Google Fonts](https://fonts.google.com/)
+* [Whois](whois.fdnd.nl)
+* [Cyclic](cyclic.sh)
+* [Github forks](https://github.com/fdnd-task/connect-your-tribe-squad-page/network/members)
 
 ## 💯 Licentie
 
