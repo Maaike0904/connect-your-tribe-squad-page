@@ -40,6 +40,7 @@ In semester 2, gaan wij heel veel bezig zijn met het gebruiken van API's. In dez
 ## ✂️ Gebruik
 
 ## 📥 Bronnen
+Dit zijn de bronnen die ik voor dit project heb gebruikt:
 * [Codepen](https://codepen.io/nxworld/pen/ZYNOBZ) (Hover over de images)
 * [YouTube](https://www.youtube.com/watch?v=3yfswsnD2sw&t=519s&ab_channel=KevinPowell) (Voor de horizontal media scroller)
 * [Google Fonts](https://fonts.google.com/) (Lettertypes)
