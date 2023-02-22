@@ -26,7 +26,7 @@ In semester 2, gaan wij heel veel bezig zijn met het gebruiken van API's. In dez
 * 👻 Google Chrome (Browser)
 
 <b>Technieken</b>
-* 🌸 HTML
+* 🌸 EJS
 * 🌷 CSS 
 * 🌺 Javascript
 * 🍄 Node js
