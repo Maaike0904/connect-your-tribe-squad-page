@@ -45,8 +45,9 @@ In semester 2, gaan wij heel veel bezig zijn met het gebruiken van API's. In dez
 * [Google Fonts](https://fonts.google.com/) (Lettertypes)
 * [Whois](whois.fdnd.nl) (API informatie)
 * [Cyclic](cyclic.sh) (Live link)
-* [Github forks](https://github.com/fdnd-task/connect-your-tribe-squad-page/network/members) (Inspiratie)
 * [Node js](https://nodejs.org/en/download/) (Voor het installeren van Node js)
+* [Github forks](https://github.com/fdnd-task/connect-your-tribe-squad-page/network/members) (Inspiratie)
+* [Videoland](https://v2.videoland.com/) (Inspiratie)
 
 ## 💯 Licentie
 
