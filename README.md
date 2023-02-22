@@ -45,6 +45,7 @@ In semester 2 zijn wij veel bezig geweest met het gebruiken van API's. Deze site
 6. Het live zetten van je project kan met behulp van cyclic.
 
 ## ✂️ Gebruik
+Je kunt filteren op de 3 squads. Per serie-genre kun je ook filteren op voornaam. Als je op de afbeelding klikt van een student, ga je naar zijn/haar website link. Je kunt per serie-genre van links naar rechts scrollen om alle studenten te bekijken.
 
 ## 📥 Bronnen
 Dit zijn de bronnen die ik voor dit project heb gebruikt:
