@@ -40,11 +40,13 @@ In semester 2, gaan wij heel veel bezig zijn met het gebruiken van API's. In dez
 ## ✂️ Gebruik
 
 ## 📥 Bronnen
-* [Codepen](https://codepen.io/nxworld/pen/ZYNOBZ)
-* [Google Fonts](https://fonts.google.com/)
-* [Whois](whois.fdnd.nl)
-* [Cyclic](cyclic.sh)
-* [Github forks](https://github.com/fdnd-task/connect-your-tribe-squad-page/network/members)
+* [Codepen](https://codepen.io/nxworld/pen/ZYNOBZ) (Hover over de images)
+* [YouTube](https://www.youtube.com/watch?v=3yfswsnD2sw&t=519s&ab_channel=KevinPowell) (Voor de horizontal media scroller)
+* [Google Fonts](https://fonts.google.com/) (Lettertypes)
+* [Whois](whois.fdnd.nl) (API informatie)
+* [Cyclic](cyclic.sh) (Live link)
+* [Github forks](https://github.com/fdnd-task/connect-your-tribe-squad-page/network/members) (Inspiratie)
+* [Node js](https://nodejs.org/en/download/) (Voor het installeren van Node js)
 
 ## 💯 Licentie
 
