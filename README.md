@@ -11,10 +11,10 @@
   * [Licentie](#licentie)
 
 ## 📝 Beschrijving
-<b>Opdracht</b>
-"Redesign met je squad een squadpagina op basis van een bestaande API."
+<b>Opdracht:</b>
+<br>"Redesign met je squad een squadpagina op basis van een bestaande API."
 <br>
-In semester 2 zijn wij veel bezig geweest met het gebruiken van API's. Deze site is gebaseerd op de website van Videoland. Op de website kun je kijken welke serie-genre bij welke student past. Wie weet vind je hier wel je binge-buddy. De site bevat alle studenten van leerjaar 1 en zijn in de 3 squads gegroepeerd.
+<br>In semester 2 zijn wij veel bezig geweest met het gebruiken van API's. Deze site is gebaseerd op de website van Videoland. Op de website kun je kijken welke serie-genre bij welke student past. Wie weet vind je hier wel je binge-buddy. De site bevat alle studenten van leerjaar 1 en zijn in de 3 squads gegroepeerd.
 <br>
 <br>🌐 [Bekijk de live site !](https://nice-jade-deer-cape.cyclic.app/)
 
