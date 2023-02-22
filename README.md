@@ -15,7 +15,7 @@
 
 ## 📝 Beschrijving
 In semester 2, gaan wij heel veel bezig zijn met het gebruiken van API's. In deze applicatie wordt er data van de TribeAPI ingeladen op de website. De website is een fake NFT marketplace, waarbij de studenten van FDND erop worden getoond met behulp van de REST API.
-🌐 [Live site!](https://nice-jade-deer-cape.cyclic.app/)
+<br>🌐 [Live site!](https://nice-jade-deer-cape.cyclic.app/)
 
 <!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
 <!-- Voeg een mooie poster visual toe 📸 -->
