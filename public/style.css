@@ -270,7 +270,7 @@ button.kijklijst:hover {
   .headerfoto {
     width: 100%;
     height: 70%;
-    overflow:auto;
+    overflow: auto;
   }
 }
 
@@ -293,5 +293,51 @@ button.kijklijst:hover {
     width: 100%;
     height: 70%;
     margin: -7rem -1rem 0;
+  }
+}
+
+@media screen and (max-width: 926px) {
+  body {
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .topnav {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .headerfoto {
+    display: none;
+  }
+  .header-tekst {
+    padding-top: 13em;
+  }
+  h1 {
+    display: none;
+  }
+  button {
+    padding: 0;
+    margin-right: 3em;
+  }
+  .komedieseries a {
+    display: block;
+  }
+  .komedieseries-slider {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0;
+  }
+  .komedieseries-slider h2 {
+    margin-left: 0;
+    text-align: center;
+  }
+  .komedieseries h2 {
+    text-align: center;
   }
 }
