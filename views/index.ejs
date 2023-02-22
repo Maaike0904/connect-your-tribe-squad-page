@@ -1,61 +1,84 @@
 <%- include('./partials/head.ejs') %>
 
 <main>
+  <div class="komedieseries-slider">
+    <h2>
+      Komedieseries
+      <a href="/?squad=<%= squad.slug %>&orderBy=name" class="order-by-name"
+        >Sorteer op voornaam</a
+      >
+    </h2>
 
-<div class="komedieseries-slider">
-    <h2>Komedieseries <a href="/?squad=<%= squad.slug %>&orderBy=name" class="order-by-name">Sorteer op voornaam</a></h2>
-
-  <section class="komedieseries">
+    <section class="komedieseries">
       <% squad.members.forEach(member => { %>
-    <article href="<">
-      <% if (member.avatar) { %>
-      <img src="<%= member.avatar %>" alt="De avatar van <%= member.name %>" />
-      <% }else{ %>
-      <img src="/puppy.png" alt="Placeholder avatar" />
-      <% } %>
-      <h2><%= member.name %> <%= member.prefix %> <%= member.surname %></h2>
-    </article>
-    <% }) %>
-</section>  
-</div>
+      <a href="<%= member.website %>" target="_blank" class="link-avatar">
+        <article href="<">
+          <% if (member.avatar) { %>
+          <img
+            src="<%= member.avatar %>"
+            alt="De avatar van <%= member.name %>"
+          />
+          <% }else{ %>
+          <img src="/puppy.png" alt="Placeholder avatar" />
+          <% } %>
+          <h2><%= member.name %> <%= member.prefix %> <%= member.surname %></h2>
+        </article>
+        <% }) %>
+      </a>
+    </section>
+  </div>
 
-<!-- ------- ACTIESERIES ------ -->
-<div class="komedieseries-slider">
-    <h2>Actieseries <a href="/?squad=<%= squad.slug %>&orderBy=name" class="order-by-name">Sorteer op voornaam</a></h2>
+  <!-- ------- ACTIESERIES ------ -->
+  <div class="komedieseries-slider">
+    <h2>
+      Actieseries
+      <a href="/?squad=<%= squad.slug %>&orderBy=name" class="order-by-name"
+        >Sorteer op voornaam</a
+      >
+    </h2>
 
-  <section class="komedieseries">
+    <section class="komedieseries">
       <% squad.members.forEach(member => { %>
-    <article href="<">
-      <% if (member.avatar) { %>
-      <img src="<%= member.avatar %>" alt="De avatar van <%= member.name %>" />
-      <% }else{ %>
-      <img src="/puppy.png" alt="Placeholder avatar" />
-      <% } %>
-      <h2><%= member.name %> <%= member.prefix %><%= member.surname %></h2>
-    </article>
-    <% }) %>
-</section>  
-</div>
+      <article href="<">
+        <% if (member.avatar) { %>
+        <img
+          src="<%= member.avatar %>"
+          alt="De avatar van <%= member.name %>"
+        />
+        <% }else{ %>
+        <img src="/puppy.png" alt="Placeholder avatar" />
+        <% } %>
+        <h2><%= member.name %> <%= member.prefix %><%= member.surname %></h2>
+      </article>
+      <% }) %>
+    </section>
+  </div>
 
-<!-- ------ DRAMASERIES ------ -->
-<div class="komedieseries-slider">
-    <h2>Dramaseries <a href="/?squad=<%= squad.slug %>&orderBy=name" class="order-by-name">Sorteer op voornaam</a></h2>
+  <!-- ------ DRAMASERIES ------ -->
+  <div class="komedieseries-slider">
+    <h2>
+      Dramaseries
+      <a href="/?squad=<%= squad.slug %>&orderBy=name" class="order-by-name"
+        >Sorteer op voornaam</a
+      >
+    </h2>
 
-  <section class="komedieseries">
+    <section class="komedieseries">
       <% squad.members.forEach(member => { %>
-    <article href="<">
-      <% if (member.avatar) { %>
-      <img src="<%= member.avatar %>" alt="De avatar van <%= member.name %>" />
-      <% }else{ %>
-      <img src="/puppy.png" alt="Placeholder avatar" />
-      <% } %>
-      <h2><%= member.name %> <%= member.prefix %><%= member.surname %></h2>
-    </article>
-    <% }) %>
-</section>  
-</div>
-
-
+      <article href="<">
+        <% if (member.avatar) { %>
+        <img
+          src="<%= member.avatar %>"
+          alt="De avatar van <%= member.name %>"
+        />
+        <% }else{ %>
+        <img src="/puppy.png" alt="Placeholder avatar" />
+        <% } %>
+        <h2><%= member.name %> <%= member.prefix %><%= member.surname %></h2>
+      </article>
+      <% }) %>
+    </section>
+  </div>
 </main>
 
 <%- include('./partials/foot.ejs') %>
