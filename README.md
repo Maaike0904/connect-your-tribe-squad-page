@@ -12,7 +12,8 @@
 
 ## 📝 Beschrijving
 In semester 2 zijn wij veel bezig geweest met het gebruiken van API's. Deze site is gebaseerd op de website van Videoland. Op de website kun je kijken welke serie-genre bij welke student past. Wie weet vind je hier wel je binge-buddy. De site bevat alle studenten van leerjaar 1 en zijn in de 3 squads gegroepeerd.
-<br>🌐 [Bekijk de ive site !](https://nice-jade-deer-cape.cyclic.app/)
+<br>
+<br>🌐 [Bekijk de live site !](https://nice-jade-deer-cape.cyclic.app/)
 
 <!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
 <!-- Voeg een mooie poster visual toe 📸 -->
