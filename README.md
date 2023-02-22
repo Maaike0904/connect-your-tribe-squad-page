@@ -31,10 +31,11 @@ In semester 2, gaan wij heel veel bezig zijn met het gebruiken van API's. In dez
 * 🌸 HTML
 * 🌷 CSS 
 * 🌺 Javascript
-* 🍄 NODE js
+* 🍄 Node js
 
 ## 🎯 Installatie
 <!-- Bij Installatie staat stap-voor-stap beschreven hoe je de development omgeving moet inrichten om aan de repository te kunnen werken. -->
+Via [Nodejs.org](https://nodejs.org/en/download/) heb ik eerst Node js gedownload.
 
 ## ✂️ Gebruik
 
