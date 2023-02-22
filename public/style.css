@@ -92,6 +92,7 @@ h2{
   text-align: left;
   font-family: 'poppins';
   font-weight: 600;
+  margin-left: 2rem;
 }
 
 h3{
@@ -114,7 +115,6 @@ article {
   padding: 1rem;
   color: slate;
   text-align: center;
-
   /* From https://css.glass */
 }
 
