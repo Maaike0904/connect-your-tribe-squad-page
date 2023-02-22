@@ -12,7 +12,7 @@
   * [Licentie](#licentie)
 
 ## 📝 Beschrijving
-In semester 2, gaan wij heel veel bezig zijn met het gebruiken van API's. In deze applicatie wordt er data van de TribeAPI ingeladen op de website. De website is een fake NFT marketplace, waarbij de studenten van FDND erop worden getoond met behulp van de REST API.
+In semester 2 zijn wij veel bezig geweest met het gebruiken van API's.
 <br>🌐 [Live site!](https://nice-jade-deer-cape.cyclic.app/)
 
 <!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
@@ -36,6 +36,13 @@ In semester 2, gaan wij heel veel bezig zijn met het gebruiken van API's. In dez
 <!-- Bij Installatie staat stap-voor-stap beschreven hoe je de development omgeving moet inrichten om aan de repository te kunnen werken. -->
 * Node installatie - Via [Nodejs.org](https://nodejs.org/en/download/) heb ik eerst Node js gedownload.
 * NPM installatie
+
+1. Om in de repository te werken en aanpassingen te maken moet je node.js downloaden.
+2. Clone of download deze respository.
+3. Open hem in je code-editor (Visal Studio Code).
+4. Open de terminal en typ npm install.
+5. Daarna kun je door middel van npm start een localhost krijgen met een link waar je de live site kunt bekijken.
+6. Het live zetten van je project kan met behulp van cyclic.
 
 ## ✂️ Gebruik
 
