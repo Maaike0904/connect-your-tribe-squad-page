@@ -149,7 +149,7 @@ article a {
   margin-bottom: 6em;
 }
 
-a {
+a, span {
   text-decoration: none;
   color: white;
   padding: 0.1em;
@@ -258,7 +258,7 @@ footer {
     grid-auto-columns: 35%;
   }
 
-  a {
+  span {
     display: none;
   }
 
@@ -328,7 +328,7 @@ footer {
     display: none;
   }
   button {
-    padding: 0;
+    padding: 13px;
     margin-right: 3em;
   }
   .komedieseries a {
@@ -350,4 +350,8 @@ footer {
   footer {
     text-align: center;
   }
+
+  span{
+  display: none;
+}
 }
