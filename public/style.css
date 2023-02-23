@@ -237,19 +237,19 @@ footer {
 
 @media screen and (max-width: 1200px) {
   .komedieseries {
-    grid-auto-columns: 18%;
+    grid-auto-columns: 22%;
   }
 }
 
 @media screen and (max-width: 1000px) {
   .komedieseries {
-    grid-auto-columns: 22%;
+    grid-auto-columns: 23%;
   }
 }
 
 @media screen and (max-width: 900px) {
   .komedieseries {
-    grid-auto-columns: 32%;
+    grid-auto-columns: 25%;
   }
 }
 
