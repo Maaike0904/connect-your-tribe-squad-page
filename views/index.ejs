@@ -39,18 +39,20 @@
 
     <section class="komedieseries">
       <% squad.members.forEach(member => { %>
-      <article href="<">
-        <% if (member.avatar) { %>
-        <img
-          src="<%= member.avatar %>"
-          alt="De avatar van <%= member.name %>"
-        />
-        <% }else{ %>
-        <img src="/puppy.png" alt="Placeholder avatar" />
-        <% } %>
-        <h2><%= member.name %> <%= member.prefix %><%= member.surname %></h2>
-      </article>
-      <% }) %>
+      <a href="<%= member.website %>" target="_blank" class="link-avatar">
+        <article href="<">
+          <% if (member.avatar) { %>
+          <img
+            src="<%= member.avatar %>"
+            alt="De avatar van <%= member.name %>"
+          />
+          <% }else{ %>
+          <img src="/puppy.png" alt="Placeholder avatar" />
+          <% } %>
+          <h2><%= member.name %> <%= member.prefix %> <%= member.surname %></h2>
+        </article>
+        <% }) %>
+      </a>
     </section>
   </div>
 
@@ -65,18 +67,20 @@
 
     <section class="komedieseries">
       <% squad.members.forEach(member => { %>
-      <article href="<">
-        <% if (member.avatar) { %>
-        <img
-          src="<%= member.avatar %>"
-          alt="De avatar van <%= member.name %>"
-        />
-        <% }else{ %>
-        <img src="/puppy.png" alt="Placeholder avatar" />
-        <% } %>
-        <h2><%= member.name %> <%= member.prefix %><%= member.surname %></h2>
-      </article>
-      <% }) %>
+      <a href="<%= member.website %>" target="_blank" class="link-avatar">
+        <article href="<">
+          <% if (member.avatar) { %>
+          <img
+            src="<%= member.avatar %>"
+            alt="De avatar van <%= member.name %>"
+          />
+          <% }else{ %>
+          <img src="/puppy.png" alt="Placeholder avatar" />
+          <% } %>
+          <h2><%= member.name %> <%= member.prefix %> <%= member.surname %></h2>
+        </article>
+        <% }) %>
+      </a>
     </section>
   </div>
 </main>
