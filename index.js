@@ -20,7 +20,7 @@ app.get('/', (request, response) => {
 
   fetchJson(squadUrl).then((data) => {
     response.render('index', data)
-  })
+  }) 
 })
 
 // app.get('/members', (request, response) => {
