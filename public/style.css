@@ -149,7 +149,7 @@ article a {
   margin-bottom: 6em;
 }
 
-a {
+a, span {
   text-decoration: none;
   color: white;
   padding: 0.1em;
@@ -237,19 +237,19 @@ footer {
 
 @media screen and (max-width: 1200px) {
   .komedieseries {
-    grid-auto-columns: 18%;
+    grid-auto-columns: 22%;
   }
 }
 
 @media screen and (max-width: 1000px) {
   .komedieseries {
-    grid-auto-columns: 22%;
+    grid-auto-columns: 23%;
   }
 }
 
 @media screen and (max-width: 900px) {
   .komedieseries {
-    grid-auto-columns: 32%;
+    grid-auto-columns: 25%;
   }
 }
 
@@ -258,7 +258,7 @@ footer {
     grid-auto-columns: 35%;
   }
 
-  a {
+  span {
     display: none;
   }
 
@@ -402,7 +402,7 @@ footer {
     display: none;
   }
   button {
-    padding: 0;
+    padding: 13px;
     margin-right: 3em;
   }
   .komedieseries a {
@@ -470,4 +470,8 @@ footer {
   .menu > li:not(:last-child) {
     border-bottom: 1px solid #444;
   }
+
+  span{
+  display: none;
+}
 }
