@@ -4,29 +4,38 @@
   <div class="komedieseries-slider">
     <h2>
       Komedieseries
+      <!-- Squadleden worden geladen en gesorteerd op naam als je daarop klikt -->
       <a href="/?squad=<%= squad.slug %>&orderBy=name" class="order-by-name"
         >Sorteer op voornaam</a
       >
     </h2>
 
     <section class="komedieseries">
+      <!-- Alle leden van de squad -->
       <% squad.members.forEach(member => { %>
+      <!-- website van de member word uit API gehaald -->
       <a href="<%= member.website %>" target="_blank" class="link-avatar">
         <article href="<">
+          <!-- Als er een avatar van de member is gevonden.. -->
           <% if (member.avatar) { %>
+          <!-- Laat deze dan zien -->
           <img
             src="<%= member.avatar %>"
             alt="De avatar van <%= member.name %>"
           />
+          <!-- Laat anders de foto van een puppy zien -->
           <% }else{ %>
           <img src="/puppy.png" alt="Placeholder avatar" />
           <% } %>
+          <!-- Onder de foto komt de voornaam, prefix en achternaam -->
           <h2><%= member.name %> <%= member.prefix %> <%= member.surname %></h2>
         </article>
         <% }) %>
       </a>
     </section>
   </div>
+
+  <!-- Actieseries is hetzelfde opgebouwd, heeft alleen een andere kop -->
 
   <!-- ------- ACTIESERIES ------ -->
   <div class="komedieseries-slider">
